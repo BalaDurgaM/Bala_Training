@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login UI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="loginpin.css">
+    <script type="text/javascript">
+    function textf(x){
+    x.style.background="lavender";
+    }
+    </script>
+  </head>
+  <body class="col-sm-5 col-lg-5 col-md-5 container">
+     <div class="topnav lg">
+        <h3><i class="glyphicon glyphicon-chevron-left"></i><b class="ltpadd">PinPoint</b></h3>
+     </div>
+     <div class="txt" align=center>
+      <fieldset>
+        <h3 class="">LOGIN</h3>
+        <form action="resume.html">
+          <h4 class="tppad">Mobile No:<input type="text" onfocus="textf(this)" name=fname placeholder="mobile no" pattern="[0-9]{10}"required></h4> <br><br>
+          <h4 class="tppad">Password:<i class="glyphicon glyphicon-lock"></i><input type="password" onfocus="textf(this)" name="psw" required><br><br>
+          <button class="btn bg" type="button" data-toggle="modal" data-target="#myModal">LOGIN</button>
+        </form>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Login Failed</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                Invalid password
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Try again</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+       </fieldset>
+     </div>
+  </body>
+</html>

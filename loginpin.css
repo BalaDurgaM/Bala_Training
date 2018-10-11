@@ -1,0 +1,47 @@
+.topnav {
+  overflow: hidden;
+  background:#800080;
+  color:white;
+}
+.ltpadd{
+  padding-left: 10px;
+}
+.ltpad{
+  padding-left: 30px;
+}
+.icon{
+  size:1000px;
+}
+.tppadd{
+  padding-top:100px;
+}
+.tppad{
+  padding-top:10px;
+}
+.bg{
+  background:#6600ff;
+  color:white;
+}
+.bgd{
+ color:#800080;
+}
+.glyph-icon svg {
+width:16px;
+height:16px;
+background-color:white;
+}
+.bgc1{
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 15px;
+  }
+  .lg{
+    background-color:#4B0082;
+    color:lavender;
+    }
+    .hdtxt{
+      color:;
+      font-size: 30px;
+    }
