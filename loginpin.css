@@ -31,17 +31,17 @@ height:16px;
 background-color:white;
 }
 .bgc1{
-  border: 1px solid black;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: 15px;
-  }
-  .lg{
-    background-color:#4B0082;
-    color:lavender;
-    }
-    .hdtxt{
-      color:;
-      font-size: 30px;
-    }
+border: 1px solid black;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 10px;
+margin-left: 15px;
+}
+.lg{
+background-color:#4B0082;
+color:lavender;
+}
+.hdtxt{
+color:;
+font-size: 30px;
+}
